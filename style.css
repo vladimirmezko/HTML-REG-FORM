@@ -1,0 +1,68 @@
+
+h1 {
+text-align: center;
+color: rgb(204, 0, 255);
+margin-bottom: 3%;
+/* Отрицательный отступ между заголовком и текстом */
+    }
+   body {
+
+        background:  #f2f3f4 url(images/bg.jpg);
+        /* Цвет фона и путь к файлу */
+        color: #000000;
+        /* Цвет текста */
+    }
+
+    dt {
+
+        float: left;
+        /* Для размещения на одной строке */
+        width: 200px;
+        /* Ширина для текста */
+        text-align: left;
+        /* Выравнивание по правому краю */
+        padding-left: 250px;
+        /* Отступ справа */
+        min-height: 1px;
+        /* Минимальная высота */
+    }
+
+    dd {
+
+        position: relative;
+        /* Относительное позиционирование */
+        top: 0px;
+        /* Смещаем поля вверх */
+        margin-bottom: 20px;
+        /* Расстояние между строк */
+    }
+
+    .gradient {
+
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#b100f7), to(#f3f3f3));
+        border-radius: 5px;
+        font-size: 9pt;
+        /* Размер шрифта в пунктах */
+        height: 30px;
+        /* Высота кнопки */
+    }
+	
+	form#pic {
+	position: relative;
+
+	    border-radius: 50px;
+width: 60%;
+		left: 20%;
+		height: 800px;
+	background: #8c00ff  
+	}
+	
+.name {
+padding-top: 25px;
+}
+
+
+
+
+
+
