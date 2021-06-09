@@ -1,10 +1,10 @@
 let text = document.getElementById("text")
-let firstName = document.getElementById("firstName");
+let firstName = document.getElementById("firstname");
 let select_type = document.getElementById("select_type");
 let email = document.getElementById("email");
 let Mobile = document.getElementById("Mobile");
 let GENDER = document.getElementById("GENDER");
-let lastName = document.getElementById("lastName");
+let lastName = document.getElementById("lastname");
 let password = document.getElementById("password");
 let notify = document.getElementById("notify");
 let role = document.getElementById("role");
@@ -13,7 +13,7 @@ let role = document.getElementById("role");
 let bt = document.getElementById("text1");
 
 bt.addEventListener("click", function() {
-   
+    if(firstName.value && lastName.value){
 text.innerText += `
 First Name: ${firstname.value}
 Last Name: ${lastname.value}
@@ -35,6 +35,7 @@ checkbox ${check3.value}
 checkbox ${check4.value}
 checkbox ${check5.value}
 `
+    }
 });
 
 function getRadioName() {
